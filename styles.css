@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+
+nav li {
+    margin: 0 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff9900;
+}
+
+
+section {
+    padding: 2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1em;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.nested-table {
+    width: 100%;
+    border: none;
+    margin: 0;
+}
+
+.nested-table td {
+    border: none;
+    padding: 0;
+}
+
+form {
+    width: 50%;
+    margin: 2em auto;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 1em;
+}
+
+button {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.content{
+    background-color: darkgray;
+    padding-left:25%;
+    padding-right: 25%;
+}
+.books-page{
+    background-color: white;
+}
+.registration-page{
+    background-color: white;
+    margin-top: 20px;
+    
+}
